@@ -1,0 +1,50 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT baksokuat (order)+>
+<!ATTLIST baksokuat
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT order (kd_customer,nama_costumer,nama_paket,nama_pesanan,harga,jml,
+                 total,waktu_pesan,alamat_kirim,telp)>
+<!ATTLIST order
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kd_customer (#PCDATA)>
+<!ATTLIST kd_customer
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nama_costumer (#PCDATA)>
+<!ATTLIST nama_costumer
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nama_paket (#PCDATA)>
+<!ATTLIST nama_paket
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nama_pesanan (#PCDATA)>
+<!ATTLIST nama_pesanan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT harga (#PCDATA)>
+<!ATTLIST harga
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jml (#PCDATA)>
+<!ATTLIST jml
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT total (#PCDATA)>
+<!ATTLIST total
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT waktu_pesan (#PCDATA)>
+<!ATTLIST waktu_pesan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT alamat_kirim (#PCDATA)>
+<!ATTLIST alamat_kirim
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT telp (#PCDATA)>
+<!ATTLIST telp
+    xmlns CDATA #FIXED ''>
